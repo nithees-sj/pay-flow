@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-11-11T06:25:06.335Z",
+  "passed": true,
+  "parallelRetries": 20,
+  "uniqueStormPaymentIds": 1,
+  "stormLedgerEntries": 2,
+  "notificationsForBothParticipants": true,
+  "authenticatedPingRoutes": 5
+}

@@ -1,0 +1,14 @@
+package com.payflow.gateway.health.api;
+
+import io.swagger.v3.oas.annotations.Operation;
+import java.util.Map;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class PingController {
+  @GetMapping("/api/gateway/ping")
+  @Operation(summary = "Check service routing")
+  public Map<String, String> ping() {
+    return Map.of("service", "gateway", "status", "ok");
+  }
+}

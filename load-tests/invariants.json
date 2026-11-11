@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-11-11T06:22:22.282Z",
+  "signedEntrySum": "0",
+  "negativeUserWallets": 0,
+  "cachedBalanceMismatches": 0,
+  "malformedPostedTransfers": 0,
+  "rejectedTransfersWithEntries": 0,
+  "duplicateActiveIdempotencyScopes": 0,
+  "terminalPaymentsWithoutOutbox": 0,
+  "ledgerTransfers": 946,
+  "ledgerEntries": 1892,
+  "completedPaymentsMissingLedger": 0,
+  "passed": true
+}
